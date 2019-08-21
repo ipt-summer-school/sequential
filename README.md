@@ -1,8 +1,8 @@
 # sequential
 
-Function sequential accepts a list of functions and initial data, and then passes the data through all of them.
+This function accepts a list of functions and initial data, and then passes the data through all of them.
 
-Example:
+Example:\
 answer = sequential([\
     double, // doubles all the values   \
     square, // squares all the values in list  \
@@ -13,7 +13,7 @@ answer = sequential([\
 `
 
 
-Answer:
+Answer:\
 `txt
 [0, 0, 0, 1]
 `
